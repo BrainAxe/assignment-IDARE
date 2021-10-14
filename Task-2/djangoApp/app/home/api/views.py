@@ -43,11 +43,11 @@ class DownloadPDF(APIView):
         fig.add_scatter(x=x_data, y=y_data,
                         mode='markers', row=1, col=1)
 
-        fig.add_box(x=x_data, row=3, col=1)
-        fig.add_box(x=y_data, row=3, col=1)
-        fig.add_histogram(x=y_data, row=2, col=1)
+        fig.add_box(y=y_data, row=3, col=1)
+        fig.add_box(y=x_data, row=3, col=1)
+        fig.add_histogram(x=x_data, row=2, col=1)
         
-        fig.update_layout(showlegend=False)
+        fig.update_layout(height=800, width=600, showlegend=False)
         img_bytes = fig.to_image(format="png")
 
         image = ImageReader(io.BytesIO(img_bytes))
