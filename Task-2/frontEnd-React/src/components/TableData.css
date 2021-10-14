@@ -1,0 +1,54 @@
+button {
+  background-color: #555555; /* Black */
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+}
+
+th {
+  background-color: #a5c943;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+tr:nth-child(odd) {
+  background-color: #edf3d7;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+#download {
+  float: right;
+  background-color: #555555; /* Black */
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 15px;
+  cursor: pointer;
+}
