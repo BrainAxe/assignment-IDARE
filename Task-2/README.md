@@ -1,6 +1,10 @@
 # Introduction
 
-`djangoApp` folder contains the necessary api s and inside `static` and `templates` folder the build output files of the react app (`fontEnd-React`) are located.
+`djangoApp` folder contains the necessary api s and inside `static` and `templates` folder the build output files of the react app (`fontEnd-React`) are located. **Max File upload size 200MB**
+
+[<img alt="alt_text" width="800px" src="./images/img01.png" />]
+[<img alt="alt_text" width="800px" src="./images/img02.png" />]
+[<img alt="alt_text" width="800px" src="./images/img03.png" />]
 
 # Installation
 
