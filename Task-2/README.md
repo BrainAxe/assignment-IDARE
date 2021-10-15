@@ -12,17 +12,17 @@
 1. Go inside `djangoApp` directory
 2. Run `docker-compose up --build`
 3. After completion open browser
-4. Go to `http://127.0.0.1:1337/`
+4. Go to http://127.0.0.1:1337
 
-> :warning: **Do not use http://localhost:1337/**: Be very careful here!
+> :warning: **Do not use `http://localhost:1337`**  : Be very careful here!
 
 ### Virtual ENV
 1. Activate virtualenv
 2. Run `pip install -r requirements.txt`
 3. After completion open browser
-4. Go to `http://127.0.0.1:8000/`
+4. Go to http://127.0.0.1:8000
 
-> :warning: **Do not use http://localhost:8000/**: Be very careful here!
+> :warning: **Do not use `http://localhost:8000`**  : Be very careful here!
 
 ### Bonus (React.js)
 1. Go inside `frontEnd-React`
